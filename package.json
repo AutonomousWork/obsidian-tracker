@@ -1,6 +1,5 @@
 {
   "name": "obsidian-tracker",
-  "version": "1.14.0",
   "description": "A plugin tracks occurrences and numbers in your notes",
   "main": "main.js",
   "scripts": {
@@ -9,7 +8,7 @@
     "zip": "zip -9 obsidian-tracker-v$npm_package_version.zip main.js manifest.json styles.css"
   },
   "keywords": [],
-  "author": "pyrochlore",
+  "author": "CompG - Fork",
   "license": "MIT",
   "devDependencies": {
     "@rollup/plugin-commonjs": "^25.0.7",
@@ -20,10 +19,12 @@
     "@types/node": "^20.12.7",
     "@types/sprintf-js": "^1.1.4",
     "obsidian": "https://github.com/obsidianmd/obsidian-api/tarball/master",
-    "rollup": "^4.16.1",
+    "rollup": "^4.22.4",
     "rollup-plugin-copy": "^3.5.0",
     "tslib": "^2.6.2",
-    "typescript": "^5.4.5"
+    "typescript": "^5.4.5",
+    "braces": "^3.0.3",
+    "micromatch": "^4.0.8"
   },
   "dependencies": {
     "d3": "^7.9.0",
